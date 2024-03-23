@@ -1,0 +1,34 @@
+:root{
+    --orange: #EB6440;
+
+}
+
+.cabecalho{
+ background-color: var(--orange);
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-around;
+ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+ position: fixed;
+ width: 100%;
+ height: 80px;
+ top:0;
+ z-index: 2;
+}
+
+.Nav-bar{
+    display: flex;
+    gap: 50px;
+}
+
+.link-nav{
+    font-family: "nunito", sans-serif ;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+.link-nav:hover{
+    color: aliceblue;
+}

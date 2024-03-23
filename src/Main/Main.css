@@ -1,0 +1,28 @@
+main{
+     text-align: center;
+     object-fit: cover;
+}
+
+section{
+    /* text-align: center; */
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+section img{
+transition: 0.5s;
+border-radius: 10px;
+padding: 1px;
+}
+
+section img:hover{
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.541);
+    transform: scale(1.01);
+}
+
+
+/* @media screen and(max-width:1300){
+    .cat{
+        width: 100%;
+    }
+} */

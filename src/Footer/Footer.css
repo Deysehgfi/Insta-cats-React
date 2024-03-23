@@ -1,0 +1,16 @@
+:root{
+    --orange: #EB6440;
+
+
+}
+
+footer{
+    background-color: var(--orange) ;
+    text-align: center;
+
+}
+
+p{
+    padding: 60px;
+    font-family: "nunito", sans-serif ;
+}
